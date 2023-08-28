@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EmailVerifyOTP.Application\EmailVerifyOTP.Application.csproj" />
+    <ProjectReference Include="..\EmailVerifyOTP.Models\EmailVerifyOTP.Models.csproj" />
+  </ItemGroup>
+
+</Project>

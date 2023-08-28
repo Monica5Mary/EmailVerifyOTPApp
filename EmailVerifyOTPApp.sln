@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailVerifyOTP.Infrastructure", "EmailVerifyOTP.Infrastructure\EmailVerifyOTP.Infrastructure.csproj", "{82AE0127-1E66-41E9-A557-09D6006B2186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailVerifyOTP.WebAPI", "EmailVerifyOTP.WebAPI\EmailVerifyOTP.WebAPI.csproj", "{F0D78CA3-7505-4EE8-BC80-3BBE491320B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailVerifyOTP.UnitTestCase", "EmailVerifyOTP.UnitTestCase\EmailVerifyOTP.UnitTestCase.csproj", "{420D2617-D2AB-48AD-B871-797E04C9CE20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailVerifyOTP.Models", "EmailVerifyOTP.Models\EmailVerifyOTP.Models.csproj", "{5DA62FA0-4C5A-44FE-B879-8467309B6958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailVerifyOTP.Application", "EmailVerifyOTP.Application\EmailVerifyOTP.Application.csproj", "{AB1808AE-1944-4424-9B47-23C60EAEEF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailVerifyOTP.Infrastructures", "EmailVerifyOTP.Infrastructures\EmailVerifyOTP.Infrastructures.csproj", "{EB791E28-EC30-412C-B934-FC7AAB63FD7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82AE0127-1E66-41E9-A557-09D6006B2186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AE0127-1E66-41E9-A557-09D6006B2186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AE0127-1E66-41E9-A557-09D6006B2186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AE0127-1E66-41E9-A557-09D6006B2186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D78CA3-7505-4EE8-BC80-3BBE491320B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D78CA3-7505-4EE8-BC80-3BBE491320B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D78CA3-7505-4EE8-BC80-3BBE491320B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D78CA3-7505-4EE8-BC80-3BBE491320B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{420D2617-D2AB-48AD-B871-797E04C9CE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{420D2617-D2AB-48AD-B871-797E04C9CE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{420D2617-D2AB-48AD-B871-797E04C9CE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{420D2617-D2AB-48AD-B871-797E04C9CE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA62FA0-4C5A-44FE-B879-8467309B6958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA62FA0-4C5A-44FE-B879-8467309B6958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA62FA0-4C5A-44FE-B879-8467309B6958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA62FA0-4C5A-44FE-B879-8467309B6958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1808AE-1944-4424-9B47-23C60EAEEF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1808AE-1944-4424-9B47-23C60EAEEF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1808AE-1944-4424-9B47-23C60EAEEF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1808AE-1944-4424-9B47-23C60EAEEF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB791E28-EC30-412C-B934-FC7AAB63FD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB791E28-EC30-412C-B934-FC7AAB63FD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB791E28-EC30-412C-B934-FC7AAB63FD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB791E28-EC30-412C-B934-FC7AAB63FD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D12D7919-A815-4A0C-BFD7-A46C5A2D3A4F}
+	EndGlobalSection
+EndGlobal
